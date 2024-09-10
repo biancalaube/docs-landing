@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 -DELETE THIS TESTING COMMENT
 import collections
 import os.path
 from sys import argv
