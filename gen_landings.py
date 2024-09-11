@@ -6,6 +6,7 @@ from sys import argv
 Site = collections.namedtuple('Site', ('input_path', 'output_path', 'title', 'search_properties', 'canonical'))
 # delete this comment - does this is new change, hello, whats up
 # Build directory name will be the name of Makefile recipe
+# enw cvomme
 BUILD_DIR = argv[1]
 
 SITES = [
