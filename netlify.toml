@@ -4,3 +4,4 @@ name = "snooty-cache-plugin"
 [build]
 publish = "snooty/public"
 command = ". ./build.sh"
+environment = { EXTENSION_ENABLED = "true" }
