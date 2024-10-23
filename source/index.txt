@@ -8,7 +8,7 @@
    :canonical: https://www.mongodb.com/docs/
 
 =====================
-MongoDB Documentation TESTING BIANCA
+MongoDB Documentation TESTING
 =====================
 
 .. include:: /includes/docs-toc.rst
