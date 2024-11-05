@@ -1,7 +1,12 @@
 [[integrations]]
-name = "snooty-cache-plugin"
+name = "redirects-and-publish"
+
+[integrations.dev]
+# Set the "path" as the path from your test site to your extension’s build folder.
+path = "/Users/bianca.laube/Documents/repos/netlify-integrations/redirects-and-publish"
+# The following forces the extension to be used when building the test site.
+force_run_in_build = true
 
 [build]
 publish = "snooty/public"
 command = ". ./build.sh"
-environment = { GIT_CHANGED_FILES_ENABLED = "true" }
